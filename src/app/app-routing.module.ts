@@ -7,11 +7,6 @@ import { AuthRoutingModule } from './auth/auth.routing';
 
 const routes:Routes=[
 
-  //path:'/dashboard'
-  //path:'/auth'
-  //path:'medicos'
-  {path:'',redirectTo:'/dashboard',pathMatch:'full'},
-
   {path:'**',component:NopagefoundComponent}
 ]
 
